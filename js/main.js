@@ -1,6 +1,6 @@
 var images = [];
 
-$('[data-toggle="refresh-list"]').on('click', function(){
+function randomiseImages(){
   var target = $($(this).data('target'));
   var source = $(this).data('source')
 
@@ -15,4 +15,6 @@ $('[data-toggle="refresh-list"]').on('click', function(){
       $(this).find('.card-text').text(images[index].description);
     });
   });
-});
+}
+
+$('[data-toggle="refresh-list"]').on('click', randomiseImages).trigger('click');
