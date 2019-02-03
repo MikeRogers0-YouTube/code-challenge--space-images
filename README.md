@@ -18,6 +18,8 @@ Next use [Yarn](https://yarnpkg.com/en/docs/install) to install the libraries (H
 
 From there, you should just be able to drag and drop the `index.html` into your browser & start working.
 
+If you need help getting setup: https://www.youtube.com/watch?v=x-QJPDtuTNQ&list=PLsqSLeo9DZwT7b8dyLroiUN-OJDw8MBDM&index=1
+
 ### When you're done
 
 Commit your changes & push them up to your forked repo. Then open a Pull Request against https://github.com/MikeRogers0/code-challenge--space-images, we'll review you work remotely!
@@ -30,15 +32,21 @@ You client wants the visitors to be shuffle though all the images (Not just the 
 
 They decided it would be nice to add a "See other images" button, which upon being clicked would make an AJAX call their `images.json` file, shuffle the response, then update the images in the `.image-collection` div tag.
 
+Video of how to complete this: https://www.youtube.com/watch?v=l4MVwmVE9qk&list=PLsqSLeo9DZwT7b8dyLroiUN-OJDw8MBDM&index=2
+
 ### Task 2: "Random first"
 
 The client wants the images to change with each page load, so every time they view the site it feels like a new set of images. 
+
+Video of how to complete this: https://www.youtube.com/watch?v=AZkXOPTGU2s&index=3&list=PLsqSLeo9DZwT7b8dyLroiUN-OJDw8MBDM
 
 ### Task 3: "Images look squished on my mobile"
 
 The client loved what you've done so far! But when they looked at it on their phone, the images were way to small (They made a real scene, then ate all the biscuits!)!
 
 Find a way to use the grid system in Bootstrap to make the images larger on smaller screens, while on desktops still show 3 per a row.
+
+Video of how to complete this: https://www.youtube.com/watch?v=wpr6SNkZg10&index=4&list=PLsqSLeo9DZwT7b8dyLroiUN-OJDw8MBDM
 
 ### Task 4: "Click to download"
 
